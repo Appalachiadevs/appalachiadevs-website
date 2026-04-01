@@ -1,0 +1,19 @@
+node_modules
+dist
+dist-ssr
+.DS_Store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor / OS
+.idea
+.vscode
+Thumbs.db
+
+# Env
+.env
+.env.*.local

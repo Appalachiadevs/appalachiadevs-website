@@ -4,9 +4,10 @@ import { AboutPage } from "./pages/AboutPage";
 import { HelpPage } from "./pages/HelpPage";
 import { ProofPage } from "./pages/ProofPage";
 import { ServicesPage } from "./pages/ServicesPage";
+import { SkyPage } from "./pages/SkyPage";
 import { scrollToHash } from "./lib/scrollToHash";
 
-type Page = "landing" | "services" | "help" | "proof" | "about";
+type Page = "landing" | "services" | "help" | "proof" | "about" | "sky";
 
 function normalizePathname(pathname: string) {
   // Remove trailing slashes so `/services/` and `/services` behave the same.
@@ -19,6 +20,7 @@ function readPageFromPathname(): Page {
   if (path === "/help") return "help";
   if (path === "/proof") return "proof";
   if (path === "/about") return "about";
+  if (path === "/sky") return "sky";
   return "landing";
 }
 
@@ -41,5 +43,6 @@ export function App() {
   if (page === "help") return <HelpPage />;
   if (page === "proof") return <ProofPage />;
   if (page === "about") return <AboutPage />;
+  if (page === "sky") return <SkyPage />;
   return <LandingPage />;
 }

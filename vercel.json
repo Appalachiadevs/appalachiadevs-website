@@ -3,6 +3,10 @@
         {
             "source": "/iot/:path*",
             "destination": "https://iot.weienwong.online/:path*"
+        },
+        {
+            "source": "/rag/:path*",
+            "destination": "https://rag.weienwong.online/:path*"
         }
     ]
 }

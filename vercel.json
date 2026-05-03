@@ -1,8 +1,8 @@
 {
     "rewrites": [
         {
-            "source": "/(.*)",
-            "destination": "/"
+            "source": "/iot/:path*",
+            "destination": "https://iot.weienwong.online/:path*"
         }
     ]
 }

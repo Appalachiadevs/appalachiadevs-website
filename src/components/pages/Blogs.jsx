@@ -5,16 +5,19 @@ import blog1 from "../images/blogs/image-01.jpg";
 import blog2 from "../images/blogs/image-02.jpg";
 import blog3 from "../images/blogs/image-03.jpg";
 import { motion } from "framer-motion";
+import SeoHead from "../SeoHead";
+
 const Blogs = () => {
-    useEffect(() => {
-        document.title="AppalachiaDevs | Blogs";
-    },[]);
     /* automatically scroll to the top of the page */
     useEffect(() => {
       window.scrollTo(0, 0);
     }, []);
   return (
     <>
+    <SeoHead
+      title="Insights & Blog"
+      description="Latest insights from AppalachiaDevs on web development, product delivery, and building resilient engineering teams—practical notes for technical leaders."
+    />
     <Navbar />
       <section className="pt-20 pb-10 lg:pt-[120px] lg:pb-20 bg-gradient-to-br from-blue-100">
         <div className="container mx-auto">

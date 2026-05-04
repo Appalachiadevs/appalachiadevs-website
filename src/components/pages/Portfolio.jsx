@@ -3,6 +3,7 @@ import Navbar from "../Navbar";
 import Footer from "../Footer";
 import { motion } from "framer-motion";
 import { FiExternalLink, FiCheck } from "react-icons/fi";
+import SeoHead from "../SeoHead";
 
 const projects = [
   {
@@ -54,14 +55,16 @@ const projects = [
 
 const Portfolio = () => {
   useEffect(() => {
-    document.title = "AppalachiaDevs | Portfolio";
-  }, []);
-  useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
   return (
     <>
+      <SeoHead
+        title="Portfolio"
+        description="Live production work from AppalachiaDevs: IoT operations console, enterprise RAG workspace, and Guard access front ends—open each deployment on appalachiadevs.com."
+        ogImage="/portfolio/portfolio-iot.png"
+      />
       <Navbar />
       <div className="min-h-screen bg-slate-50 font-poppins">
         {/* Hero */}

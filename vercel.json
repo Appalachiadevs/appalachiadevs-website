@@ -13,7 +13,7 @@
             "destination": "https://guard.weienwong.online/:path*"
         },
         {
-            "source": "/((?!assets/|portfolio/|about/|services/|contact/).*)",
+            "source": "/((?!assets/|portfolio/)(?!robots\\.txt$)(?!sitemap\\.xml$)(?!logo\\.svg$)(?!vite\\.svg$).*)",
             "destination": "/index.html"
         }
     ]

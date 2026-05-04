@@ -11,11 +11,9 @@ import mapbg from "../images/map-bg.png";
 import Features from "../Features";
 import Footer from "../Footer";
 import {useAnimation, useInView, motion } from "framer-motion";
-const Services = () => {
-    useEffect(() => {
-        document.title="AppalachiaDevs | Services";
-    },[]);
+import SeoHead from "../SeoHead";
 
+const Services = () => {
     const { innerWidth: width, innerHeight: height } = window;
     const ref = useRef(null);
     const isInView = useInView(ref);
@@ -33,6 +31,11 @@ const Services = () => {
       }, []);
   return (
     <>
+      <SeoHead
+        title="Web Development Services"
+        description="Full-stack web development, UX, integrations, and cloud-ready builds—AppalachiaDevs scopes in days and ships production-grade software for teams across the United States."
+        ogImage="/portfolio/portfolio-guard.png"
+      />
         <Navbar />
         <div className="bg-gradient-to-br from-blue-100">
             <section className="pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]">

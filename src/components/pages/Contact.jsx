@@ -2,10 +2,9 @@ import React, { useEffect, useRef, useState } from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
 import { motion, useInView, useAnimation } from 'framer-motion';
+import SeoHead from "../SeoHead";
+
 const Contact = () => {
-  useEffect(() => {
-    document.title = "AppalachiaDevs | Contact";
-  }, []);
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [email, setEmail] = useState("");
@@ -31,6 +30,10 @@ const Contact = () => {
   }, []);
   return (
     <>
+      <SeoHead
+        title="Contact"
+        description="Contact AppalachiaDevs in Miami for project scoping, partnerships, and support—email, phone, and map. Book a 15-minute intro or send a detailed inquiry today."
+      />
       <Navbar />
       <div className="bg-gradient-to-br from-blue-100">
         <div className="max-w-screen font-poppins overflow-hidden ">

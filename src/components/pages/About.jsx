@@ -10,6 +10,7 @@ import profile1 from '../images/About/team/profile1.jpg';
 import profile2 from '../images/About/team/profile2.png';
 import profile3 from '../images/About/team/profile3.jpg';
 import profile4 from '../images/About/team/image0.jpeg';
+import SeoHead from "../SeoHead";
 
 const About = () => {
   const { innerWidth: Width } = window;
@@ -22,14 +23,15 @@ const About = () => {
     }
   }, [isInView]);
   useEffect(() => {
-    document.title = "AppalachiaDevs | About";
-  }, []);
-  /* automatically scroll to the top of the page */
-  useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
   return (
     <div>
+      <SeoHead
+        title="About Us"
+        description="Meet AppalachiaDevs: Miami-based digital agency with Appalachian roots—web engineering, product discipline, and long-term partnerships for startups and enterprises."
+        ogImage="/portfolio/portfolio-iot.png"
+      />
       <Navbar />
       <section className="pt-0 lg:pt-[100px] pb-20  overflow-hidden bg-gradient-to-br from-blue-100" >
         <div className="container mx-auto px-10">

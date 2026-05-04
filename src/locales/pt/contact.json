@@ -1,0 +1,22 @@
+{
+  "contact": {
+    "headline": "FALE CONOSCO",
+    "intro1": "Obrigado pelo interesse na nossa agência digital. Estamos aqui para ajudar com dúvidas ou solicitações.",
+    "intro2": "Para entrar em contato, use os dados abaixo:",
+    "locationTitle": "Endereço",
+    "phoneTitle": "Telefone",
+    "emailTitle": "Email",
+    "placeholders": {
+      "name": "Seu nome",
+      "email": "Seu email",
+      "phone": "Seu telefone",
+      "message": "Sua mensagem"
+    },
+    "submit": "Enviar mensagem",
+    "mapSectionTitle": "Nossa localização",
+    "mapSectionLead": "Visite nosso escritório! Adoraríamos conhecê-lo pessoalmente. Veja onde estamos:",
+    "address": "41 SE 5th Street, Miami, FL 33131, EUA",
+    "phone": "+1 786-445-0719",
+    "email": "alex@appalachiadevs.com"
+  }
+}

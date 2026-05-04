@@ -1,0 +1,24 @@
+{
+  "blogs": {
+    "title": "Nos derniers articles",
+    "lead": "Dans un monde du développement web en constante évolution, nous partageons tendances et savoir-faire pour vous tenir à jour.",
+    "pagination": { "prev": "précédent", "next": "suivant", "page": "Page {{n}}" },
+    "posts": [
+      {
+        "date": "22 oct. 2023",
+        "title": "Stratégies e-commerce qui performent",
+        "excerpt": "Booster les ventes en ligne : du panier à l'optimisation du checkout. Conseils pour un e-commerce d'excellence."
+      },
+      {
+        "date": "29 mars 2023",
+        "title": "Design web responsive",
+        "excerpt": "Des expériences utilisateur engageantes avec des interfaces adaptées au mobile. Les bases de la responsivité."
+      },
+      {
+        "date": "10 janv. 2023",
+        "title": "SEO pour webmasters",
+        "excerpt": "Visibilité et classement sur les moteurs de recherche. Plongée dans le SEO appliqué au développement web."
+      }
+    ]
+  }
+}

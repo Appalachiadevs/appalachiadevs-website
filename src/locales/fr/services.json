@@ -1,0 +1,25 @@
+{
+  "servicesPage": {
+    "eyebrow": "Nos services",
+    "title": "Ce que nous offrons",
+    "intro": "Nous aidons les organisations à adopter l'IA et l'IoT avec de l'automatisation concrète, des intégrations, des modèles, des produits connectés, de la livraison et du conseil expert.",
+    "mapTitle1": "Services IA et IoT",
+    "mapTitle2": "de la stratégie à la livraison",
+    "mapLead": "Que vous automatisiez des opérations, intégriez des modèles ou livriez des produits connectés, nous vous accompagnons pour transformer les idées en systèmes fiables.",
+    "stats": [
+      { "value": "2K+", "label": "Entreprises accompagnées" },
+      { "value": "25%", "label": "Hausse moyenne de performance" },
+      { "value": "70%", "label": "Clients qui renouvellent" }
+    ],
+    "cards": [
+      { "title": "Automatisation IA", "details": "Automatisez le travail répétitif et les flux métiers avec l'IA pour que vos équipes se concentrent sur l'essentiel." },
+      { "title": "Intégration IA", "details": "Intégrez l'IA dans vos systèmes existants—APIs, pipelines de données et applications—avec des schémas fiables d'auth, d'observabilité et de déploiement prudent." },
+      { "title": "Modèles IA", "details": "Choisissez, entraînez, évaluez et déployez des modèles adaptés à votre domaine, du prototype au suivi en production." },
+      { "title": "Solution IoT", "details": "Concevez des architectures IoT de bout en bout : appareils, connectivité, logique edge et backends cloud alignés sur votre roadmap." },
+      { "title": "Livraison IoT", "details": "Livrez des programmes IoT avec provisionnement, gestion de flotte, mises à jour OTA et support terrain pour garder matériel et logiciel alignés." },
+      { "title": "Conseil", "details": "Stratégie et accompagnement opérationnel pour initiatives IA et IoT—roadmaps, revues de risque, choix d'outils et plans d'exécution orientés résultats." }
+    ],
+    "mapAltDesktop": "carte du monde",
+    "mapAltMobile": "image mobile"
+  }
+}

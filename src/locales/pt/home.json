@@ -1,0 +1,18 @@
+{
+  "hero": {
+    "welcome": "Bem-vindo à",
+    "tagline": "Serviços de IA, IoT e consultoria de TI",
+    "lead": "Na Appalachiadevs trabalhamos com empresas e pessoas para tirar ideias do papel. Agentes de IA, automação, dispositivos IoT ou consultoria de TI: entregamos soluções inteligentes para projetos digitais mais fluidos e eficientes.",
+    "bookCall": "Agendar chamada",
+    "takeLook": "Ver mais",
+    "clients": "Alguns dos nossos clientes"
+  },
+  "cta": {
+    "eyebrow": "Descubra a equipe ideal para realizar seus sonhos digitais!",
+    "headlineBefore": "Comece hoje e deixe o resto com a gente.",
+    "headlineMid": "Tenha o que você quer",
+    "headlineAfter": "com a gente",
+    "talkAgent": "Falar com um agente",
+    "getStarted": "Começar"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "seo": {
+    "home": {
+      "title": "Custom Web Development & Digital Agency",
+      "description": "AppalachiaDevs delivers custom web apps, integrations, and AI-ready products from Miami for U.S. clients—clear roadmaps, senior engineers, and code you can ship and own."
+    },
+    "about": {
+      "title": "About Us",
+      "description": "Meet AppalachiaDevs: Miami-based digital agency with Appalachian roots—web engineering, product discipline, and long-term partnerships for startups and enterprises."
+    },
+    "services": {
+      "title": "Web Development Services",
+      "description": "Full-stack web development, UX, integrations, and cloud-ready builds—AppalachiaDevs scopes in days and ships production-grade software for teams across the United States."
+    },
+    "portfolio": {
+      "title": "Portfolio",
+      "description": "Live production work from AppalachiaDevs: IoT operations console, enterprise RAG workspace, and Guard access front ends—open each deployment on appalachiadevs.com."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Contact AppalachiaDevs in Miami for project scoping, partnerships, and support—email, phone, and map. Book a 15-minute intro or send a detailed inquiry today."
+    },
+    "blogs": {
+      "title": "Insights & Blog",
+      "description": "Latest insights from AppalachiaDevs on web development, product delivery, and building resilient engineering teams—practical notes for technical leaders."
+    }
+  }
+}

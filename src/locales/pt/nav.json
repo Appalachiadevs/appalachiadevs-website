@@ -1,0 +1,20 @@
+{
+  "nav": {
+    "home": "Início",
+    "about": "Sobre",
+    "services": "Serviços",
+    "portfolio": "Portfólio",
+    "blogs": "Blog",
+    "contact": "Contato",
+    "getStarted": "Começar",
+    "brand": "AppalachiaDevs"
+  },
+  "lang": {
+    "label": "Idioma",
+    "en": "English",
+    "fr": "Français",
+    "es": "Español",
+    "pt": "Português",
+    "zh": "中文"
+  }
+}

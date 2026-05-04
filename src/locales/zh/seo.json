@@ -1,0 +1,28 @@
+{
+  "seo": {
+    "home": {
+      "title": "定制网站开发与数字机构",
+      "description": "AppalachiaDevs 在迈阿密为美国客户提供定制 Web 应用、集成与面向 AI 的产品——路线清晰、资深工程师、可上线且可归您所有的代码。"
+    },
+    "about": {
+      "title": "关于我们",
+      "description": "了解 AppalachiaDevs：扎根阿巴拉契亚、总部在迈阿密的数字机构——Web 工程、产品纪律，以及与初创企业和大型公司的长期合作。"
+    },
+    "services": {
+      "title": "网站开发服务",
+      "description": "全栈 Web 开发、用户体验、集成与云就绪交付——AppalachiaDevs 数天内完成范围界定，并为全美团队交付可生产级软件。"
+    },
+    "portfolio": {
+      "title": "案例",
+      "description": "AppalachiaDevs 的线上生产案例：IoT 运营控制台、企业 RAG 工作台与 Guard 访问前端——在 appalachiadevs.com 打开每个部署。"
+    },
+    "contact": {
+      "title": "联系",
+      "description": "在迈阿密联系 AppalachiaDevs 进行项目范围界定、合作与支持——邮件、电话与地图。预约 15 分钟介绍或发送详细咨询。"
+    },
+    "blogs": {
+      "title": "观点与博客",
+      "description": "AppalachiaDevs 关于 Web 开发、产品交付与打造韧性工程团队的最新观点——面向技术负责人的实践笔记。"
+    }
+  }
+}

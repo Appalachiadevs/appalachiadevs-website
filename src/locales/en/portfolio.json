@@ -1,0 +1,61 @@
+{
+  "portfolio": {
+    "badge": "Production references",
+    "titleLine1": "Systems we ship to",
+    "titleAccent": "real traffic",
+    "intro": "Each tile below is a live deployment under the AppalachiaDevs domain—same TLS, same release discipline, same obsession with clarity for operators and stakeholders. Open any link to walk the product as your users would.",
+    "stat1": "Live production paths",
+    "stat2": "IoT · RAG · Guard",
+    "stat3": "Built for U.S. buyers, global delivery",
+    "sectionTitle": "Featured deployments",
+    "sectionLead": "Narrative, stack posture, and outcomes—written the way we brief executives before a technical deep dive.",
+    "ctaButton": "View live environment",
+    "closingTitle": "Want a similar build on your domain and stack?",
+    "closingLead": "We scope in days, not decks—bring your constraints (compliance, latency, team size) and we will map a delivery plan you can take to leadership.",
+    "closingButton": "Book a 15-minute intro",
+    "projects": [
+      {
+        "slug": "iot",
+        "image": "/portfolio/portfolio-iot.png",
+        "title": "Industrial IoT console",
+        "category": "IoT · Edge · Real-time",
+        "tagline": "Live telemetry, device health, and operational visibility in one production-grade console—built for teams that cannot afford blind spots on the plant floor or in the field.",
+        "highlights": [
+          "Streaming-friendly views for sensors and gateways",
+          "Role-aware navigation for operators vs. engineering",
+          "Deployed behind your appalachiadevs.com path for a single brand surface"
+        ],
+        "tags": ["Real-time data", "Dashboards", "Device ops"],
+        "url": "https://appalachiadevs.com/iot"
+      },
+      {
+        "slug": "rag",
+        "image": "/portfolio/portfolio-rag.png",
+        "title": "Enterprise RAG workspace",
+        "category": "LLM · Retrieval · Knowledge",
+        "tagline": "Grounded answers over your own documents and policies—so support, sales, and internal teams spend less time searching and more time closing the loop with customers.",
+        "highlights": [
+          "Retrieval-first UX: citations and traceability by design",
+          "Tuned for internal knowledge bases and long-form PDFs",
+          "Production path aligned with how you already route traffic"
+        ],
+        "tags": ["RAG", "Knowledge base", "AI UX"],
+        "url": "https://appalachiadevs.com/rag"
+      },
+      {
+        "slug": "guard",
+        "image": "/portfolio/portfolio-guard.png",
+        "title": "Guard — access & compliance front door",
+        "category": "Security · Access · Governance",
+        "tagline": "A hardened entry experience for contractors, visitors, and privileged workflows—policy messaging, gating, and escalation paths that security teams expect from day one.",
+        "highlights": [
+          "Zero-trust friendly patterns for sensitive entry flows",
+          "Clear audit trail–ready structure for compliance stakeholders",
+          "Served from the same primary domain to reduce phishing risk"
+        ],
+        "tags": ["Access control", "Zero-trust", "Compliance UX"],
+        "url": "https://appalachiadevs.com/guard"
+      }
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "portfolio": {
+    "badge": "Références en production",
+    "titleLine1": "Des systèmes exposés au",
+    "titleAccent": "trafic réel",
+    "intro": "Chaque bloc ci-dessous est un déploiement live sous le domaine AppalachiaDevs—même TLS, même discipline de release, même exigence de clarté pour les opérateurs et parties prenantes. Ouvrez un lien pour parcourir le produit comme vos utilisateurs.",
+    "stat1": "Chemins de production live",
+    "stat2": "IoT · RAG · Guard",
+    "stat3": "Conçu pour les acheteurs US, livré dans le monde",
+    "sectionTitle": "Déploiements mis en avant",
+    "sectionLead": "Récit, posture technique et résultats—rédigés comme nous briefons les dirigeants avant une plongée technique.",
+    "ctaButton": "Voir l'environnement live",
+    "closingTitle": "Un build similaire sur votre domaine et votre stack ?",
+    "closingLead": "Nous cadrons en jours, pas en slides—apportez vos contraintes (conformité, latence, taille d'équipe) et nous tracerons un plan de livraison présentable à la direction.",
+    "closingButton": "Réserver une intro 15 minutes",
+    "projects": [
+      {
+        "slug": "iot",
+        "image": "/portfolio/portfolio-iot.png",
+        "title": "Console IoT industrielle",
+        "category": "IoT · Edge · Temps réel",
+        "tagline": "Télémétrie live, santé des équipements et visibilité opérationnelle dans une console de production—pour les équipes qui ne peuvent pas se permettre d'angles morts sur le terrain.",
+        "highlights": [
+          "Vues adaptées au streaming pour capteurs et passerelles",
+          "Navigation selon les rôles opérateurs vs ingénierie",
+          "Déployé derrière votre chemin appalachiadevs.com pour une surface de marque unique"
+        ],
+        "tags": ["Données temps réel", "Tableaux de bord", "Ops appareils"],
+        "url": "https://appalachiadevs.com/iot"
+      },
+      {
+        "slug": "rag",
+        "image": "/portfolio/portfolio-rag.png",
+        "title": "Espace de travail RAG entreprise",
+        "category": "LLM · Retrieval · Connaissance",
+        "tagline": "Réponses ancrées sur vos documents et politiques—pour que support, ventes et équipes internes passent moins de temps à chercher et plus de temps à boucler la boucle client.",
+        "highlights": [
+          "UX retrieval-first : citations et traçabilité dès la conception",
+          "Adapté aux bases de connaissances internes et aux PDF longs",
+          "Chemin de production aligné sur votre routage existant"
+        ],
+        "tags": ["RAG", "Base de connaissances", "UX IA"],
+        "url": "https://appalachiadevs.com/rag"
+      },
+      {
+        "slug": "guard",
+        "image": "/portfolio/portfolio-guard.png",
+        "title": "Guard — portail d'accès et conformité",
+        "category": "Sécurité · Accès · Gouvernance",
+        "tagline": "Une expérience d'entrée durcie pour prestataires, visiteurs et flux sensibles—messages de politique, contrôles d'accès et chemins d'escalade attendus par la sécurité dès le jour 1.",
+        "highlights": [
+          "Schémas compatibles zero-trust pour flux sensibles",
+          "Structure prête pour la traçabilité attendue par la conformité",
+          "Servi depuis le même domaine principal pour réduire le risque de phishing"
+        ],
+        "tags": ["Contrôle d'accès", "Zero-trust", "UX conformité"],
+        "url": "https://appalachiadevs.com/guard"
+      }
+    ]
+  }
+}

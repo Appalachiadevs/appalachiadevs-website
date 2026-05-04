@@ -1,0 +1,28 @@
+{
+  "about": {
+    "whyTitle": "Why Choose Us",
+    "whyLead": "The name reflects Appalachian roots; we're headquartered in Miami, Florida and work with clients across the U.S. Distance doesn't change how we ship—clear specs, steady communication, and code you can own.",
+    "sectionLabel": "About Us",
+    "body": "At AppalachiaDevs, we are passionate about crafting exceptional web solutions that drive digital success. With a team of dedicated experts, we bring together creativity, innovation, and technical expertise to create web experiences that leave a lasting impression. Our commitment to delivering cutting-edge websites, e-commerce platforms, and web applications is matched only by our dedication to our clients. We take pride in understanding your unique business objectives and translating them into captivating online experiences. Whether you're a startup looking to establish a web presence or an established enterprise seeking to expand, we're here to empower your digital journey. Join us, and let's transform your web vision into reality.",
+    "getStarted": "Get Started",
+    "clients": "Some Of Our Clients",
+    "teamTitle": "Meet Our Team",
+    "teamLead": "The skilled professionals driving innovation behind our digital solutions.",
+    "members": [
+      {
+        "name": "Alexander Southern",
+        "role": "CEO"
+      },
+      {
+        "name": "Sabir Youssef",
+        "role": "Full-Stack Developer"
+      }
+    ],
+    "a11y": {
+      "email": "Email",
+      "twitter": "Twitter",
+      "linkedin": "LinkedIn",
+      "github": "GitHub"
+    }
+  }
+}

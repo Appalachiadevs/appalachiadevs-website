@@ -1,0 +1,44 @@
+{
+  "features": {
+    "mobile": {
+      "heroTitle": "Booster votre activité",
+      "heroSubtitle": "Croissance grâce à des solutions technologiques avancées, à l'analytique et à des équipes formées",
+      "block1Title": "L'innovation commence ici",
+      "block1Lead": "Accélérez la croissance avec des solutions technologiques avancées : opérations optimisées, technologies innovantes intégrées et accompagnement personnalisé.",
+      "block1Card1Title": "Solutions algorithmiques avancées",
+      "block1Card1Body": "Nos algorithmes optimisent vos opérations pour gagner en efficacité et en rentabilité. Prenez des décisions guidées par la donnée avec des insights actionnables.",
+      "block1Card2Title": "Intégration technologique innovante",
+      "block1Card2Body": "Intégrez en douceur l'IA, l'IoT et le cloud. Automatisez les tâches, améliorez la communication et libérez du potentiel de croissance.",
+      "block1Card3Title": "Support d'experts formés",
+      "block1Card3Body": "Nos experts assurent une mise en œuvre fluide et un accompagnement continu pour tirer le meilleur parti de vos outils.",
+      "block2Title": "Décisions data, solutions sur mesure",
+      "block2Lead": "Décisions basées sur les données, solutions personnalisées et innovation continue : avancez avec une analytique puissante adaptée à vos enjeux.",
+      "block2Card1Title": "Analytique puissante",
+      "block2Card1Body": "Extrayez de la valeur de vos données avec des visualisations complètes. Suivez les KPI, les tendances et identifiez les axes d'amélioration.",
+      "block2Card2Title": "Solutions personnalisées",
+      "block2Card2Body": "Des solutions logicielles taillées pour vos besoins uniques, alignées sur vos objectifs pour une croissance durable.",
+      "block2Card3Title": "Innovation et évolutions continues",
+      "block2Card3Body": "Restez en tête avec les dernières fonctionnalités. Adaptez-vous au marché et gardez un avantage concurrentiel grâce à l'innovation continue."
+    },
+    "desktop": {
+      "heroTitle": "Automatisez votre entreprise",
+      "heroSubtitle": "Repérez les tâches manuelles dans votre organisation et laissez-nous les automatiser pour vous.",
+      "block1Title": "L'innovation commence ici",
+      "block1Lead": "Gagnez en efficacité avec des solutions pilotées par l'IA : opérations simplifiées, moins de travail manuel et décisions plus intelligentes grâce à l'automatisation.",
+      "block1Card1Title": "Automatisation IA",
+      "block1Card1Body": "Nos solutions d'automatisation par l'IA simplifient les flux complexes, augmentent la productivité et rendent votre entreprise plus rapide et plus agile.",
+      "block1Card2Title": "Intégration technologique intelligente",
+      "block1Card2Body": "Intégrez IA, cloud et outils modernes à vos systèmes existants. Automatisez le répétitif, fluidifiez la communication et accélérez la croissance.",
+      "block1Card3Title": "Support IA & IT fiable",
+      "block1Card3Body": "Notre équipe expérimentée assure déploiement et support continus pour maximiser la valeur de vos solutions IA et scaler sereinement.",
+      "block2Title": "Démarrez intelligemment avec un conseil IT expert",
+      "block2Lead": "Posez les bonnes bases avant de construire. Notre approche conseil d'abord clarifie vos objectifs, choisit les bonnes technologies et évite les erreurs coûteuses dès le départ.",
+      "block2Card1Title": "Planification stratégique de projet",
+      "block2Card1Body": "Transformez les idées en plans actionnables : analyse des besoins, identification des risques et feuille de route alignée sur vos objectifs.",
+      "block2Card2Title": "Recommandations technologiques sur mesure",
+      "block2Card2Body": "Chaque projet est unique. Nous recommandons architecture, outils et technologies pour une solution efficace, scalable et prête pour l'avenir.",
+      "block2Card3Title": "Accompagnement et optimisation continus",
+      "block2Card3Body": "Du concept à l'exécution, nous restons à vos côtés avec des ajustements continus pour garder le projet aligné, efficace et durable."
+    }
+  }
+}

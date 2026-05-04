@@ -1,0 +1,28 @@
+{
+  "blogs": {
+    "title": "Our Latest Insights",
+    "lead": "In the ever-evolving world of web development, we share the latest trends and invaluable knowledge to keep you updated.",
+    "pagination": {
+      "prev": "previous",
+      "next": "next",
+      "page": "Page {{n}}"
+    },
+    "posts": [
+      {
+        "date": "Oct 22, 2023",
+        "title": "E-commerce Success Strategies",
+        "excerpt": "Unlocking Online Sales: From Shopping Carts to Checkout Optimization. Tips for E-commerce Excellence."
+      },
+      {
+        "date": "Mar 29, 2023",
+        "title": "Responsive Web Design",
+        "excerpt": "Crafting Engaging User Experiences with Mobile-Friendly Web Designs. Learn the Essentials of Responsiveness."
+      },
+      {
+        "date": "Jan 10, 2023",
+        "title": "SEO Essentials for Webmasters",
+        "excerpt": "Boosting Visibility and Ranking on Search Engines. Dive into the World of SEO for Web Development."
+      }
+    ]
+  }
+}

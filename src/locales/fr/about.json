@@ -1,0 +1,17 @@
+{
+  "about": {
+    "whyTitle": "Pourquoi nous choisir",
+    "whyLead": "Le nom évoque nos racines appalachiennes ; nous sommes basés à Miami, en Floride, et travaillons avec des clients partout aux États-Unis. La distance ne change pas notre façon de livrer—spécifications claires, communication régulière et du code dont vous restez propriétaire.",
+    "sectionLabel": "À propos de nous",
+    "body": "Chez AppalachiaDevs, nous aimons concevoir des solutions web exceptionnelles qui créent du succès digital. Avec une équipe d'experts engagés, nous combinons créativité, innovation et savoir-faire technique pour des expériences web mémorables. Notre engagement pour des sites, plateformes e-commerce et applications web de pointe n'est égalé que par notre dévouement aux clients. Nous comprenons vos objectifs métiers et les traduisons en expériences en ligne convaincantes. Que vous soyez une startup qui se lance ou une grande entreprise en croissance, nous sommes là pour accélérer votre parcours digital. Rejoignez-nous et transformons ensemble votre vision web en réalité.",
+    "getStarted": "Démarrer",
+    "clients": "Quelques clients",
+    "teamTitle": "Rencontrez l'équipe",
+    "teamLead": "Les professionnels qui portent l'innovation derrière nos solutions digitales.",
+    "members": [
+      { "name": "Alexander Southern", "role": "PDG" },
+      { "name": "Sabir Youssef", "role": "Développeur full-stack" }
+    ],
+    "a11y": { "email": "E-mail", "twitter": "Twitter", "linkedin": "LinkedIn", "github": "GitHub" }
+  }
+}

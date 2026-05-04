@@ -1,0 +1,44 @@
+{
+  "features": {
+    "mobile": {
+      "heroTitle": "赋能业务增长",
+      "heroSubtitle": "以先进技术、数据分析与专业团队推动增长",
+      "block1Title": "创新从这里开始",
+      "block1Lead": "通过先进技术方案优化运营、集成创新技术并获得个性化支持，释放增长潜力。",
+      "block1Card1Title": "先进算法方案",
+      "block1Card1Body": "先进算法优化运营效率与盈利能力，用可执行洞察支撑数据驱动决策。",
+      "block1Card2Title": "创新技术集成",
+      "block1Card2Body": "顺畅集成 AI、物联网与云计算等前沿技术，自动化任务、改善沟通并释放增长空间。",
+      "block1Card3Title": "专业团队支持",
+      "block1Card3Body": "训练有素的专家保障平滑落地与持续指导，让您更高效地使用软件。",
+      "block2Title": "数据驱动决策，个性化方案",
+      "block2Lead": "数据驱动、方案定制、持续创新。以强大分析能力匹配需求，并以持续创新面向未来。",
+      "block2Card1Title": "强大的分析能力",
+      "block2Card1Body": "通过全面可视化从数据中提取价值，监控 KPI、跟踪趋势并发现改进点。",
+      "block2Card2Title": "个性化解决方案",
+      "block2Card2Body": "针对独特需求的定制软件方案，与业务目标对齐以实现可持续增长。",
+      "block2Card3Title": "持续创新与升级",
+      "block2Card3Body": "持续获得最新功能与能力，适应市场变化并保持竞争优势。"
+    },
+    "desktop": {
+      "heroTitle": "自动化您的业务",
+      "heroSubtitle": "找出业务流程中的手工环节，让我们为您自动化。",
+      "block1Title": "创新从这里开始",
+      "block1Lead": "借助 AI 驱动方案提升效率：简化运营、减少手工工作，并以智能自动化支持更聪明的决策。",
+      "block1Card1Title": "AI 驱动的自动化方案",
+      "block1Card1Body": "我们的 AI 自动化方案旨在简化复杂工作流、提升生产力，让业务更快、更智能、更高效地运行。",
+      "block1Card2Title": "智能技术集成",
+      "block1Card2Body": "将 AI、云计算与现代工具无缝集成到现有系统中，自动化重复任务、加强沟通并加速增长。",
+      "block1Card3Title": "可靠的 AI 与 IT 支持",
+      "block1Card3Body": "经验丰富的团队保障平滑实施与持续支持，帮助您最大化 AI 价值并自信扩展。",
+      "block2Title": "以专家 IT 咨询聪明起步",
+      "block2Lead": "在构建之前打好正确基础。我们以咨询为先的方法帮助明确目标、选择合适技术，并从第一天起避免昂贵错误。",
+      "block2Card1Title": "战略项目规划",
+      "block2Card1Body": "在专家指导下把想法变成可执行计划：分析需求、识别风险并制定与业务目标一致的路线图。",
+      "block2Card2Title": "量身定制的技术建议",
+      "block2Card2Body": "每个项目都不同。我们针对架构、工具与技术给出个性化建议，确保方案高效、可扩展且面向未来。",
+      "block2Card3Title": "持续指导与优化",
+      "block2Card3Body": "从概念到执行我们一路同行，提供持续洞察与调整，让项目保持对齐、高效并具备长期成功基础。"
+    }
+  }
+}

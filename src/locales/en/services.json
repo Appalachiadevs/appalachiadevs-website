@@ -1,0 +1,43 @@
+{
+  "servicesPage": {
+    "eyebrow": "Our Services",
+    "title": "What We Offer",
+    "intro": "We help organizations adopt AI and IoT with practical automation, integrations, models, connected products, delivery, and expert consulting.",
+    "mapTitle1": "AI and IoT services",
+    "mapTitle2": "from strategy through delivery",
+    "mapLead": "Whether you are automating operations, integrating models, or shipping connected products, we partner with you to turn ideas into dependable systems.",
+    "stats": [
+      { "value": "2K+", "label": "Companies Helped" },
+      { "value": "25%", "label": "Average Performance Increase" },
+      { "value": "70%", "label": "Companies Purchase Again" }
+    ],
+    "cards": [
+      {
+        "title": "AI Automation",
+        "details": "Automate repetitive work and business workflows with AI so your teams spend time on decisions that matter, not manual busywork."
+      },
+      {
+        "title": "AI Integration",
+        "details": "Embed AI into your existing systems—APIs, data pipelines, and applications—with reliable patterns for auth, observability, and safe rollout."
+      },
+      {
+        "title": "AI Models",
+        "details": "Choose, train, evaluate, and deploy models that fit your domain, from prototyping through production monitoring and iteration."
+      },
+      {
+        "title": "IoT Solution",
+        "details": "Design end-to-end IoT architectures: devices, connectivity, edge logic, and cloud backends that scale with your product roadmap."
+      },
+      {
+        "title": "IoT Delivery",
+        "details": "Ship IoT programs with provisioning, fleet management, OTA updates, and field rollout support so hardware and software stay aligned in production."
+      },
+      {
+        "title": "Consulting",
+        "details": "Strategy and hands-on guidance for AI and IoT initiatives—roadmaps, risk reviews, vendor choices, and execution plans tied to your outcomes."
+      }
+    ],
+    "mapAltDesktop": "world map image",
+    "mapAltMobile": "mobile-image"
+  }
+}

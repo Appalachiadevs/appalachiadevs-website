@@ -1,0 +1,22 @@
+{
+  "contact": {
+    "headline": "联系我们",
+    "intro1": "感谢您对我们数字机构的关注。我们很乐意协助您的任何问题或需求。",
+    "intro2": "您可以通过以下方式联系我们：",
+    "locationTitle": "地址",
+    "phoneTitle": "电话",
+    "emailTitle": "邮箱",
+    "placeholders": {
+      "name": "您的姓名",
+      "email": "您的邮箱",
+      "phone": "您的电话",
+      "message": "您的留言"
+    },
+    "submit": "发送消息",
+    "mapSectionTitle": "我们的位置",
+    "mapSectionLead": "欢迎到访办公室！我们很乐意与您当面交流。您可以在以下位置找到我们：",
+    "address": "美国佛罗里达州迈阿密市 SE 5th Street 41 号，邮编 33131",
+    "phone": "+1 786-445-0719",
+    "email": "alex@appalachiadevs.com"
+  }
+}

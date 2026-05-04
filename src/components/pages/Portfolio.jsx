@@ -1,73 +1,32 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useMemo } from "react";
+import { useTranslation } from "react-i18next";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
 import { motion } from "framer-motion";
 import { FiExternalLink, FiCheck } from "react-icons/fi";
 import SeoHead from "../SeoHead";
 
-const projects = [
-  {
-    slug: "iot",
-    title: "Industrial IoT console",
-    category: "IoT · Edge · Real-time",
-    tagline:
-      "Live telemetry, device health, and operational visibility in one production-grade console—built for teams that cannot afford blind spots on the plant floor or in the field.",
-    image: "/portfolio/portfolio-iot.png",
-    url: "https://appalachiadevs.com/iot",
-    highlights: [
-      "Streaming-friendly views for sensors and gateways",
-      "Role-aware navigation for operators vs. engineering",
-      "Deployed behind your appalachiadevs.com path for a single brand surface",
-    ],
-    tags: ["Real-time data", "Dashboards", "Device ops"],
-  },
-  {
-    slug: "rag",
-    title: "Enterprise RAG workspace",
-    category: "LLM · Retrieval · Knowledge",
-    tagline:
-      "Grounded answers over your own documents and policies—so support, sales, and internal teams spend less time searching and more time closing the loop with customers.",
-    image: "/portfolio/portfolio-rag.png",
-    url: "https://appalachiadevs.com/rag",
-    highlights: [
-      "Retrieval-first UX: citations and traceability by design",
-      "Tuned for internal knowledge bases and long-form PDFs",
-      "Production path aligned with how you already route traffic",
-    ],
-    tags: ["RAG", "Knowledge base", "AI UX"],
-  },
-  {
-    slug: "guard",
-    title: "Guard — access & compliance front door",
-    category: "Security · Access · Governance",
-    tagline:
-      "A hardened entry experience for contractors, visitors, and privileged workflows—policy messaging, gating, and escalation paths that security teams expect from day one.",
-    image: "/portfolio/portfolio-guard.png",
-    url: "https://appalachiadevs.com/guard",
-    highlights: [
-      "Zero-trust friendly patterns for sensitive entry flows",
-      "Clear audit trail–ready structure for compliance stakeholders",
-      "Served from the same primary domain to reduce phishing risk",
-    ],
-    tags: ["Access control", "Zero-trust", "Compliance UX"],
-  },
-];
-
 const Portfolio = () => {
+  const { t } = useTranslation();
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
+  const projectsRaw = t("portfolio.projects", { returnObjects: true });
+  const projects = useMemo(
+    () => (Array.isArray(projectsRaw) ? projectsRaw : []),
+    [projectsRaw]
+  );
+
   return (
     <>
       <SeoHead
-        title="Portfolio"
-        description="Live production work from AppalachiaDevs: IoT operations console, enterprise RAG workspace, and Guard access front ends—open each deployment on appalachiadevs.com."
+        title={t("seo.portfolio.title")}
+        description={t("seo.portfolio.description")}
         ogImage="/portfolio/portfolio-iot.png"
       />
       <Navbar />
       <div className="min-h-screen bg-slate-50 font-poppins">
-        {/* Hero */}
         <section className="relative overflow-hidden border-b border-slate-200/80 bg-gradient-to-b from-white via-blue-50/40 to-slate-50 pt-24 sm:pt-28 pb-12 sm:pb-16">
           <div
             className="pointer-events-none absolute inset-0 opacity-[0.35]"
@@ -84,7 +43,7 @@ const Portfolio = () => {
               transition={{ duration: 0.45 }}
               className="mb-4 inline-flex items-center rounded-full border border-blue-200/80 bg-white/80 px-4 py-1 text-xs font-semibold uppercase tracking-[0.2em] text-blue-700 shadow-sm"
             >
-              Production references
+              {t("portfolio.badge")}
             </motion.p>
             <motion.h1
               initial={{ opacity: 0, y: 16 }}
@@ -92,9 +51,9 @@ const Portfolio = () => {
               transition={{ duration: 0.55, delay: 0.05 }}
               className="text-3xl sm:text-4xl md:text-[2.75rem] font-bold text-slate-900 tracking-tight"
             >
-              Systems we ship to{" "}
+              {t("portfolio.titleLine1")}{" "}
               <span className="bg-gradient-to-r from-blue-600 to-sky-500 bg-clip-text text-transparent">
-                real traffic
+                {t("portfolio.titleAccent")}
               </span>
             </motion.h1>
             <motion.p
@@ -103,9 +62,7 @@ const Portfolio = () => {
               transition={{ duration: 0.55, delay: 0.12 }}
               className="mx-auto mt-5 max-w-2xl text-base sm:text-lg text-slate-600 leading-relaxed"
             >
-              Each tile below is a live deployment under the AppalachiaDevs domain—
-              same TLS, same release discipline, same obsession with clarity for operators
-              and stakeholders. Open any link to walk the product as your users would.
+              {t("portfolio.intro")}
             </motion.p>
             <motion.div
               initial={{ opacity: 0, y: 12 }}
@@ -115,26 +72,24 @@ const Portfolio = () => {
             >
               <div className="flex items-center gap-2">
                 <span className="h-2 w-2 rounded-full bg-emerald-500" aria-hidden />
-                Live production paths
+                {t("portfolio.stat1")}
               </div>
               <div className="hidden sm:block h-4 w-px bg-slate-200" aria-hidden />
-              <div>IoT · RAG · Guard</div>
+              <div>{t("portfolio.stat2")}</div>
               <div className="hidden sm:block h-4 w-px bg-slate-200" aria-hidden />
-              <div>Built for U.S. buyers, global delivery</div>
+              <div>{t("portfolio.stat3")}</div>
             </motion.div>
           </div>
         </section>
 
-        {/* Case studies */}
         <section className="mx-auto max-w-6xl px-4 sm:px-6 py-14 sm:py-18">
           <div className="mb-10 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
             <div>
               <h2 className="text-xl sm:text-2xl font-bold text-slate-900">
-                Featured deployments
+                {t("portfolio.sectionTitle")}
               </h2>
               <p className="mt-2 max-w-xl text-sm sm:text-base text-slate-600">
-                Narrative, stack posture, and outcomes—written the way we brief executives
-                before a technical deep dive.
+                {t("portfolio.sectionLead")}
               </p>
             </div>
           </div>
@@ -176,9 +131,9 @@ const Portfolio = () => {
                       {project.tagline}
                     </p>
                     <ul className="mt-6 space-y-3">
-                      {project.highlights.map((line) => (
+                      {(project.highlights || []).map((line, hi) => (
                         <li
-                          key={line}
+                          key={`${project.slug}-h-${hi}`}
                           className="flex gap-3 text-sm sm:text-base text-slate-600 leading-snug"
                         >
                           <FiCheck
@@ -190,7 +145,7 @@ const Portfolio = () => {
                       ))}
                     </ul>
                     <div className="mt-6 flex flex-wrap gap-2">
-                      {project.tags.map((tag) => (
+                      {(project.tags || []).map((tag) => (
                         <span
                           key={tag}
                           className="rounded-md border border-slate-200 bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-600"
@@ -209,7 +164,7 @@ const Portfolio = () => {
                         rel="noopener noreferrer"
                         className="inline-flex items-center justify-center gap-2 rounded-lg bg-blue-600 px-5 py-3 text-sm font-semibold text-white shadow-sm shadow-blue-600/25 transition hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
                       >
-                        View live environment
+                        {t("portfolio.ctaButton")}
                         <FiExternalLink className="h-4 w-4 shrink-0" aria-hidden />
                       </a>
                     </div>
@@ -220,15 +175,13 @@ const Portfolio = () => {
           </div>
         </section>
 
-        {/* Closing CTA */}
         <section className="border-t border-slate-200 bg-white py-12 sm:py-14">
           <div className="mx-auto max-w-3xl px-4 text-center sm:px-6">
             <h2 className="text-lg sm:text-xl font-bold text-slate-900">
-              Want a similar build on your domain and stack?
+              {t("portfolio.closingTitle")}
             </h2>
             <p className="mt-3 text-sm sm:text-base text-slate-600 leading-relaxed">
-              We scope in days, not decks—bring your constraints (compliance, latency,
-              team size) and we will map a delivery plan you can take to leadership.
+              {t("portfolio.closingLead")}
             </p>
             <button
               type="button"
@@ -237,7 +190,7 @@ const Portfolio = () => {
               }
               className="mt-6 inline-flex rounded-lg border border-slate-200 bg-slate-50 px-5 py-2.5 text-sm font-semibold text-slate-800 transition hover:border-blue-200 hover:bg-blue-50 hover:text-blue-800"
             >
-              Book a 15-minute intro
+              {t("portfolio.closingButton")}
             </button>
           </div>
         </section>

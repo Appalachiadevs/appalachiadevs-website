@@ -8,9 +8,11 @@ import { FcRadarPlot } from "react-icons/fc";
 import image1 from "./images/Features/fb11.jpg";
 import image2 from "./images/Features/fb22.jpg";
 import { useAnimation, useInView, motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 const Features = () => {
-  const { innerWidth: width, innerHeight: height } = window;
+  const { innerWidth: width } = window;
+  const { t } = useTranslation();
   const ref = useRef(null);
   const isInView = useInView(ref);
 
@@ -20,37 +22,30 @@ const Features = () => {
     if (isInView) {
       mainControlls.start("visible");
     }
-  }, [isInView]);
+  }, [isInView, mainControlls]);
   return (
     <>
       <div className="w-[70%] h-[2px] bg-gradient-to-r from-blue-500 to-blue-200"></div>
       <div className="max-w-screen overflow-x-hidden font-poppins ">
-        {/* features section */}
         {width < 631 ? (
           <>
             <section className=" text-gray-700">
               <div className="container max-w-xl p-6 py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl">
-
                 <div className="mx-auto mb-12 text-center">
                   <h2 className="mb-4 text-3xl font-bold text-blue-500 sm:text-4xl md:text-[40px]">
-                    Empowering Business
+                    {t("features.mobile.heroTitle")}
                   </h2>
                   <p className="text-lg text-gray-500">
-                    Growth Through Advanced Technology Solutions, Analytics and
-                    Professionaly Trained Personnel
+                    {t("features.mobile.heroSubtitle")}
                   </p>
                 </div>
 
                 <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
                   <div>
                     <h3 className="text-2xl font-bold tracking-tight sm:text-3xl text-blue-500">
-                      Inovation Begins Here
+                      {t("features.mobile.block1Title")}
                     </h3>
-                    <p className="mt-3 text-lg ">
-                      Unleash business growth with advanced technology
-                      solutions, optimizing operations, integrating innovative
-                      technologies, and receiving personalized support.
-                    </p>
+                    <p className="mt-3 text-lg ">{t("features.mobile.block1Lead")}</p>
                     <div className="mt-12 space-y-12">
                       <div className="flex">
                         <div className="flex-shrink-0">
@@ -60,13 +55,9 @@ const Features = () => {
                         </div>
                         <div className="ml-4">
                           <h4 className="text-lg font-medium leading-6 text-blue-700">
-                            Advanced Algorithmic Solutions
+                            {t("features.mobile.block1Card1Title")}
                           </h4>
-                          <p className="mt-2 ">
-                            Our advanced algorithms optimize your operations,
-                            boosting efficiency and profitability. Make
-                            data-driven decisions with actionable insights.
-                          </p>
+                          <p className="mt-2 ">{t("features.mobile.block1Card1Body")}</p>
                         </div>
                       </div>
                       <div className="flex">
@@ -77,13 +68,9 @@ const Features = () => {
                         </div>
                         <div className="ml-4">
                           <h4 className="text-lg font-medium leading-6 text-blue-700">
-                            Innovative Technology Integration
+                            {t("features.mobile.block1Card2Title")}
                           </h4>
-                          <p className="mt-2 ">
-                            Seamlessly integrate cutting-edge technologies like
-                            AI, IoT, and cloud computing. Automate tasks,
-                            improve communication, and unlock growth potential.
-                          </p>
+                          <p className="mt-2 ">{t("features.mobile.block1Card2Body")}</p>
                         </div>
                       </div>
                       <div className="flex">
@@ -94,13 +81,9 @@ const Features = () => {
                         </div>
                         <div className="ml-4">
                           <h4 className="text-lg font-medium leading-6 text-blue-700">
-                            Trained Personnel Support
+                            {t("features.mobile.block1Card3Title")}
                           </h4>
-                          <p className="mt-2 ">
-                            Our trained experts ensure smooth implementation and
-                            ongoing guidance. Leverage our software effectively
-                            with personalized assistance.
-                          </p>
+                          <p className="mt-2 ">{t("features.mobile.block1Card3Body")}</p>
                         </div>
                       </div>
                     </div>
@@ -119,14 +102,9 @@ const Features = () => {
                   <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
                     <div className="lg:col-start-2">
                       <h3 className="text-2xl font-bold tracking-tight sm:text-3xl text-blue-500">
-                        Data-Driven Decisions, Personalized Solutions
+                        {t("features.mobile.block2Title")}
                       </h3>
-                      <p className="mt-3 text-lg ">
-                        Data-driven decisions. Personalized solutions.
-                        Continuous innovation. Propel your business forward with
-                        our powerful analytics, tailored to your needs, and
-                        future-proofed by our commitment to innovation.
-                      </p>
+                      <p className="mt-3 text-lg ">{t("features.mobile.block2Lead")}</p>
                       <div className="mt-12 space-y-12">
                         <div className="flex">
                           <div className="flex-shrink-0">
@@ -136,13 +114,9 @@ const Features = () => {
                           </div>
                           <div className="ml-4">
                             <h4 className="text-lg font-medium leading-6 text-blue-700">
-                              Powerful Analytics Capabilities
+                              {t("features.mobile.block2Card1Title")}
                             </h4>
-                            <p className="mt-2 ">
-                              Extract valuable insights from your data with
-                              comprehensive visualizations. Monitor KPIs, track
-                              trends, and identify areas for improvement.
-                            </p>
+                            <p className="mt-2 ">{t("features.mobile.block2Card1Body")}</p>
                           </div>
                         </div>
                         <div className="flex">
@@ -153,13 +127,9 @@ const Features = () => {
                           </div>
                           <div className="ml-4">
                             <h4 className="text-lg font-medium leading-6  text-blue-700">
-                              Personalized Solutions
+                              {t("features.mobile.block2Card2Title")}
                             </h4>
-                            <p className="mt-2 ">
-                              Tailored software solutions to address your unique
-                              needs. Achieve sustainable growth by aligning with
-                              your business objectives.
-                            </p>
+                            <p className="mt-2 ">{t("features.mobile.block2Card2Body")}</p>
                           </div>
                         </div>
                         <div className="flex">
@@ -170,13 +140,9 @@ const Features = () => {
                           </div>
                           <div className="ml-4">
                             <h4 className="text-lg font-medium leading-6 text-blue-700">
-                              Continuous Innovation and Upgrades
+                              {t("features.mobile.block2Card3Title")}
                             </h4>
-                            <p className="mt-2 ">
-                              Stay ahead with the latest features and
-                              functionalities. Adapt to market dynamics and gain
-                              a competitive edge through continuous innovation.
-                            </p>
+                            <p className="mt-2 ">{t("features.mobile.block2Card3Body")}</p>
                           </div>
                         </div>
                       </div>
@@ -197,26 +163,21 @@ const Features = () => {
           <>
             <section className=" text-gray-700 gap-8">
               <div className="container max-w-xl p-6 py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl">
-
                 <div className="mx-auto mb-12 text-center lg:mb-20">
                   <h2 className="mb-4 text-3xl font-bold text-blue-500 sm:text-4xl md:text-[40px]">
-                    Automate Your Business
+                    {t("features.desktop.heroTitle")}
                   </h2>
                   <p className="text-lg text-gray-500">
-                    Find your manual labor tasks in your business and let us automate them for you.
+                    {t("features.desktop.heroSubtitle")}
                   </p>
                 </div>
 
                 <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
                   <div>
                     <h3 className="text-2xl font-bold tracking-tight sm:text-3xl text-blue-500">
-                      Innovation Starts Here
+                      {t("features.desktop.block1Title")}
                     </h3>
-                    <p className="mt-3 text-lg ">
-                      Unlock new levels of efficiency by leveraging AI-driven solutions.
-                      We help streamline operations, reduce manual work, and empower smarter
-                      decision-making through intelligent automation.
-                    </p>
+                    <p className="mt-3 text-lg ">{t("features.desktop.block1Lead")}</p>
                     <div className="mt-12 space-y-12 ">
                       <motion.div
                         ref={ref}
@@ -236,12 +197,9 @@ const Features = () => {
                         </div>
                         <div className="ml-4">
                           <h4 className="text-lg font-medium leading-6 text-blue-700">
-                            AI-Powered Automation Solutions
+                            {t("features.desktop.block1Card1Title")}
                           </h4>
-                          <p className="mt-2 ">
-                            Our AI automation solutions are designed to simplify complex workflows, boost productivity,
-                            and help your business run faster, smarter, and more efficiently.
-                          </p>
+                          <p className="mt-2 ">{t("features.desktop.block1Card1Body")}</p>
                         </div>
                       </motion.div>
                       <motion.div
@@ -262,12 +220,9 @@ const Features = () => {
                         </div>
                         <div className="ml-4">
                           <h4 className="text-lg font-medium leading-6 text-blue-700">
-                            Smart Technology Integration
+                            {t("features.desktop.block1Card2Title")}
                           </h4>
-                          <p className="mt-2 ">
-                            Seamlessly integrate AI, cloud computing, and modern tools into your existing systems.
-                            Automate repetitive tasks, enhance communication, and accelerate business growth.
-                          </p>
+                          <p className="mt-2 ">{t("features.desktop.block1Card2Body")}</p>
                         </div>
                       </motion.div>
                       <motion.div
@@ -288,12 +243,9 @@ const Features = () => {
                         </div>
                         <div className="ml-4">
                           <h4 className="text-lg font-medium leading-6 text-blue-700">
-                            Reliable AI & IT Support
+                            {t("features.desktop.block1Card3Title")}
                           </h4>
-                          <p className="mt-2 ">
-                            Our experienced team ensures smooth implementation and ongoing support,
-                            helping you maximize the value of your AI solutions and scale with confidence.
-                          </p>
+                          <p className="mt-2 ">{t("features.desktop.block1Card3Body")}</p>
                         </div>
                       </motion.div>
                     </div>
@@ -322,13 +274,9 @@ const Features = () => {
                   <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
                     <div className="lg:col-start-2">
                       <h3 className="text-2xl font-bold tracking-tight sm:text-3xl text-blue-500">
-                        Start Smart with Expert IT Consultation
+                        {t("features.desktop.block2Title")}
                       </h3>
-                      <p className="mt-3 text-lg ">
-                        Lay the right foundation before you build. Our consultation-first 
-                        approach helps you define clear goals, choose the right technologies, 
-                        and avoid costly mistakes from day one.
-                      </p>
+                      <p className="mt-3 text-lg ">{t("features.desktop.block2Lead")}</p>
                       <div className="mt-12 space-y-12">
                         <motion.div
                           ref={ref}
@@ -348,13 +296,9 @@ const Features = () => {
                           </div>
                           <div className="ml-4">
                             <h4 className="text-lg font-medium leading-6 text-blue-700">
-                              Strategic Project Planning
+                              {t("features.desktop.block2Card1Title")}
                             </h4>
-                            <p className="mt-2 ">
-                              Turn ideas into actionable plans with expert guidance. We 
-                              analyze your requirements, identify potential risks, and create 
-                              a roadmap tailored to your business objectives.
-                            </p>
+                            <p className="mt-2 ">{t("features.desktop.block2Card1Body")}</p>
                           </div>
                         </motion.div>
                         <motion.div
@@ -375,14 +319,9 @@ const Features = () => {
                           </div>
                           <div className="ml-4">
                             <h4 className="text-lg font-medium leading-6 text-blue-700">
-                              Tailored Technology Recommendations
-
+                              {t("features.desktop.block2Card2Title")}
                             </h4>
-                            <p className="mt-2 ">
-                              Every project is different. We provide personalized recommendations 
-                              on architecture, tools, and technologies to ensure your solution is 
-                              efficient, scalable, and future-ready.
-                            </p>
+                            <p className="mt-2 ">{t("features.desktop.block2Card2Body")}</p>
                           </div>
                         </motion.div>
                         <motion.div
@@ -403,13 +342,9 @@ const Features = () => {
                           </div>
                           <div className="ml-4">
                             <h4 className="text-lg font-medium leading-6 text-blue-700">
-                              Continuous Guidance and Optimization
+                              {t("features.desktop.block2Card3Title")}
                             </h4>
-                            <p className="mt-2 ">
-                              From concept to execution, we stay with you. Our team provides ongoing 
-                              insights and adjustments to keep your project aligned, efficient, and 
-                              built for long-term success.
-                            </p>
+                            <p className="mt-2 ">{t("features.desktop.block2Card3Body")}</p>
                           </div>
                         </motion.div>
                       </div>

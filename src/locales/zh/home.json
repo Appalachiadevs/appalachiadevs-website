@@ -1,0 +1,18 @@
+{
+  "hero": {
+    "welcome": "欢迎来到",
+    "tagline": "人工智能、物联网与 IT 咨询服务",
+    "lead": "在 Appalachiadevs，我们与企业及个人合作，把想法落地。无论是 AI 智能体、自动化、物联网设备还是 IT 咨询，我们都提供智能方案，让您的数字项目更顺畅、更高效。",
+    "bookCall": "预约通话",
+    "takeLook": "了解服务",
+    "clients": "部分客户"
+  },
+  "cta": {
+    "eyebrow": "找到合适的团队，把数字愿景变成现实！",
+    "headlineBefore": "今天就开始，其余交给我们。",
+    "headlineMid": "得到您想要的成果",
+    "headlineAfter": "由我们交付",
+    "talkAgent": "与顾问沟通",
+    "getStarted": "开始合作"
+  }
+}

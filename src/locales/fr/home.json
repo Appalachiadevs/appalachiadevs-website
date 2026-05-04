@@ -1,0 +1,18 @@
+{
+  "hero": {
+    "welcome": "Bienvenue chez",
+    "tagline": "Services d'IA, IoT et conseil IT",
+    "lead": "Chez Appalachiadevs, nous accompagnons entreprises et particuliers pour concrétiser leurs idées. Agents IA, automatisation, objets connectés ou conseil IT : nous proposons des solutions intelligentes pour des projets digitaux plus fluides et plus efficaces.",
+    "bookCall": "Réserver un appel",
+    "takeLook": "Découvrir",
+    "clients": "Quelques clients"
+  },
+  "cta": {
+    "eyebrow": "Découvrez l'équipe idéale pour donner vie à vos ambitions digitales !",
+    "headlineBefore": "Commencez dès aujourd'hui, nous gérons le reste.",
+    "headlineMid": "Obtenez ce que vous voulez",
+    "headlineAfter": "avec nous",
+    "talkAgent": "Parler à un agent",
+    "getStarted": "Démarrer"
+  }
+}

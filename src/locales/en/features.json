@@ -1,0 +1,44 @@
+{
+  "features": {
+    "mobile": {
+      "heroTitle": "Empowering Business",
+      "heroSubtitle": "Growth Through Advanced Technology Solutions, Analytics and Professionaly Trained Personnel",
+      "block1Title": "Inovation Begins Here",
+      "block1Lead": "Unleash business growth with advanced technology solutions, optimizing operations, integrating innovative technologies, and receiving personalized support.",
+      "block1Card1Title": "Advanced Algorithmic Solutions",
+      "block1Card1Body": "Our advanced algorithms optimize your operations, boosting efficiency and profitability. Make data-driven decisions with actionable insights.",
+      "block1Card2Title": "Innovative Technology Integration",
+      "block1Card2Body": "Seamlessly integrate cutting-edge technologies like AI, IoT, and cloud computing. Automate tasks, improve communication, and unlock growth potential.",
+      "block1Card3Title": "Trained Personnel Support",
+      "block1Card3Body": "Our trained experts ensure smooth implementation and ongoing guidance. Leverage our software effectively with personalized assistance.",
+      "block2Title": "Data-Driven Decisions, Personalized Solutions",
+      "block2Lead": "Data-driven decisions. Personalized solutions. Continuous innovation. Propel your business forward with our powerful analytics, tailored to your needs, and future-proofed by our commitment to innovation.",
+      "block2Card1Title": "Powerful Analytics Capabilities",
+      "block2Card1Body": "Extract valuable insights from your data with comprehensive visualizations. Monitor KPIs, track trends, and identify areas for improvement.",
+      "block2Card2Title": "Personalized Solutions",
+      "block2Card2Body": "Tailored software solutions to address your unique needs. Achieve sustainable growth by aligning with your business objectives.",
+      "block2Card3Title": "Continuous Innovation and Upgrades",
+      "block2Card3Body": "Stay ahead with the latest features and functionalities. Adapt to market dynamics and gain a competitive edge through continuous innovation."
+    },
+    "desktop": {
+      "heroTitle": "Automate Your Business",
+      "heroSubtitle": "Find your manual labor tasks in your business and let us automate them for you.",
+      "block1Title": "Innovation Starts Here",
+      "block1Lead": "Unlock new levels of efficiency by leveraging AI-driven solutions. We help streamline operations, reduce manual work, and empower smarter decision-making through intelligent automation.",
+      "block1Card1Title": "AI-Powered Automation Solutions",
+      "block1Card1Body": "Our AI automation solutions are designed to simplify complex workflows, boost productivity, and help your business run faster, smarter, and more efficiently.",
+      "block1Card2Title": "Smart Technology Integration",
+      "block1Card2Body": "Seamlessly integrate AI, cloud computing, and modern tools into your existing systems. Automate repetitive tasks, enhance communication, and accelerate business growth.",
+      "block1Card3Title": "Reliable AI & IT Support",
+      "block1Card3Body": "Our experienced team ensures smooth implementation and ongoing support, helping you maximize the value of your AI solutions and scale with confidence.",
+      "block2Title": "Start Smart with Expert IT Consultation",
+      "block2Lead": "Lay the right foundation before you build. Our consultation-first approach helps you define clear goals, choose the right technologies, and avoid costly mistakes from day one.",
+      "block2Card1Title": "Strategic Project Planning",
+      "block2Card1Body": "Turn ideas into actionable plans with expert guidance. We analyze your requirements, identify potential risks, and create a roadmap tailored to your business objectives.",
+      "block2Card2Title": "Tailored Technology Recommendations",
+      "block2Card2Body": "Every project is different. We provide personalized recommendations on architecture, tools, and technologies to ensure your solution is efficient, scalable, and future-ready.",
+      "block2Card3Title": "Continuous Guidance and Optimization",
+      "block2Card3Body": "From concept to execution, we stay with you. Our team provides ongoing insights and adjustments to keep your project aligned, efficient, and built for long-term success."
+    }
+  }
+}

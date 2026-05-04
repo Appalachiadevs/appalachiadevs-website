@@ -1,0 +1,18 @@
+{
+  "hero": {
+    "welcome": "Welcome to",
+    "tagline": "AI, IoT, and IT Consulting Services",
+    "lead": "At Appalachiadevs, we work with both businesses and individuals to bring ideas to life. Whether it's AI agents, automation, IoT devices, or IT consulting, we provide smart solutions that make your digital projects run smoother and smarter.",
+    "bookCall": "Book a Call",
+    "takeLook": "Take a look",
+    "clients": "Some Of Our Clients"
+  },
+  "cta": {
+    "eyebrow": "Discover the ideal team to bring your digital dreams to life!",
+    "headlineBefore": "Begin your journey today, and leave the rest to us.",
+    "headlineMid": "Get what you want",
+    "headlineAfter": "from us",
+    "talkAgent": "Talk to an agent",
+    "getStarted": "Get Started"
+  }
+}

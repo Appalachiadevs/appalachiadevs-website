@@ -1,0 +1,20 @@
+{
+  "nav": {
+    "home": "首页",
+    "about": "关于",
+    "services": "服务",
+    "portfolio": "案例",
+    "blogs": "博客",
+    "contact": "联系",
+    "getStarted": "开始合作",
+    "brand": "AppalachiaDevs"
+  },
+  "lang": {
+    "label": "语言",
+    "en": "English",
+    "fr": "Français",
+    "es": "Español",
+    "pt": "Português",
+    "zh": "中文"
+  }
+}

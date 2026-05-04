@@ -1,10 +1,12 @@
 import React, { useEffect, useRef, useState } from "react";
+import { useTranslation } from "react-i18next";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
-import { motion, useInView, useAnimation } from 'framer-motion';
+import { motion, useInView, useAnimation } from "framer-motion";
 import SeoHead from "../SeoHead";
 
 const Contact = () => {
+  const { t } = useTranslation();
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [email, setEmail] = useState("");
@@ -15,24 +17,24 @@ const Contact = () => {
 
   useEffect(() => {
     if (isInView) {
-      mainControlls.start('visible');
+      mainControlls.start("visible");
     }
   }, [isInView, mainControlls]);
-  /* automatically scroll to the top of the page */
   const handleSubmit = (e) => {
     e.preventDefault();
-    const body = encodeURIComponent(`Name: ${name.trim()}\nEmail: ${email.trim()}\nPhone: ${phone.trim()}\n\n${message.trim()}`);
+    const body = encodeURIComponent(
+      `Name: ${name.trim()}\nEmail: ${email.trim()}\nPhone: ${phone.trim()}\n\n${message.trim()}`
+    );
     window.location.href = `mailto:alex@appalachiadevs.com?body=${body}`;
-    console.log('Form submitted');
-  }
+  };
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
   return (
     <>
       <SeoHead
-        title="Contact"
-        description="Contact AppalachiaDevs in Miami for project scoping, partnerships, and support—email, phone, and map. Book a 15-minute intro or send a detailed inquiry today."
+        title={t("seo.contact.title")}
+        description={t("seo.contact.description")}
       />
       <Navbar />
       <div className="bg-gradient-to-br from-blue-100">
@@ -40,7 +42,6 @@ const Contact = () => {
           <section className="relative z-10 bg-gradient-to-br from-blue-100  py-20  sm:px-20 sm:py-40 ">
             <div className="container mx-auto">
               <div className="-mx-4 flex flex-wrap lg:justify-between">
-
                 <motion.div
                   variants={{
                     visible: { opacity: 1, y: 0 },
@@ -53,11 +54,12 @@ const Contact = () => {
                 >
                   <div className="mb-12 max-w-[570px] lg:mb-0 pl-4">
                     <h2 className="text-blue-500 mb-6 text-[32px] font-bold uppercase sm:text-[40px] lg:text-[36px] xl:text-[40px]">
-                      GET IN TOUCH WITH US
+                      {t("contact.headline")}
                     </h2>
                     <p className="text-gray-500 mb-9 text-base leading-relaxed">
-                      Thank you for your interest in our digital agency. We're here to assist you with any inquiries or requests you may have.<br />
-                      If you would like to get in touch with us, you can use the following contact details:
+                      {t("contact.intro1")}
+                      <br />
+                      {t("contact.intro2")}
                     </p>
                     <motion.div
                       variants={{
@@ -66,7 +68,7 @@ const Contact = () => {
                       }}
                       initial="hidden"
                       animate="visible"
-                      transition={{ duration: 0.50, delay: 0.25 }}
+                      transition={{ duration: 0.5, delay: 0.25 }}
                       className="mb-8 flex w-full max-w-[370px]"
                     >
                       <div className="bg-blue-400/20 text-blue-500 mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded  sm:h-[70px] sm:max-w-[70px]">
@@ -81,13 +83,10 @@ const Contact = () => {
                       </div>
                       <div className="w-full">
                         <h4 className="text-dark mb-1 text-xl font-bold">
-                          Our Location
+                          {t("contact.locationTitle")}
                         </h4>
-                        <p className="text-body-color text-base">
-                          41SE 5th Street, Miami, FL 33131, USA
-                        </p>
+                        <p className="text-body-color text-base">{t("contact.address")}</p>
                       </div>
-
                     </motion.div>
                     <motion.div
                       variants={{
@@ -96,7 +95,7 @@ const Contact = () => {
                       }}
                       initial="hidden"
                       animate="visible"
-                      transition={{ duration: 0.50, delay: 0.50 }}
+                      transition={{ duration: 0.5, delay: 0.5 }}
                       className="mb-8 flex w-full max-w-[370px]"
                     >
                       <div className="bg-blue-400/20 text-blue-500 mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded  sm:h-[70px] sm:max-w-[70px]">
@@ -113,11 +112,9 @@ const Contact = () => {
                       </div>
                       <div className="w-full">
                         <h4 className="text-dark mb-1 text-xl font-bold">
-                          Phone Number
+                          {t("contact.phoneTitle")}
                         </h4>
-                        <p className="text-body-color text-base">
-                          +1 786-445-0719
-                        </p>
+                        <p className="text-body-color text-base">{t("contact.phone")}</p>
                       </div>
                     </motion.div>
                     <motion.div
@@ -127,7 +124,7 @@ const Contact = () => {
                       }}
                       initial="hidden"
                       animate="visible"
-                      transition={{ duration: 0.50, delay: 0.75 }}
+                      transition={{ duration: 0.5, delay: 0.75 }}
                       className="mb-8 flex w-full max-w-[370px]"
                     >
                       <div className="bg-blue-400/20 text-blue-500 mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded  sm:h-[70px] sm:max-w-[70px]">
@@ -142,16 +139,13 @@ const Contact = () => {
                       </div>
                       <div className="w-full">
                         <h4 className="text-dark mb-1 text-xl font-bold">
-                          Email Address
+                          {t("contact.emailTitle")}
                         </h4>
-                        <p className="text-body-color text-base">
-                          alex@appalachiadevs.com
-                        </p>
+                        <p className="text-body-color text-base">{t("contact.email")}</p>
                       </div>
                     </motion.div>
                   </div>
                 </motion.div>
-
 
                 <motion.div
                   variants={{
@@ -172,12 +166,12 @@ const Contact = () => {
                         }}
                         initial="hidden"
                         animate="visible"
-                        transition={{ duration: 0.50, delay: 0.50 }}
+                        transition={{ duration: 0.5, delay: 0.5 }}
                         className="mb-6"
                       >
                         <input
                           type="text"
-                          placeholder="Your Name"
+                          placeholder={t("contact.placeholders.name")}
                           value={name}
                           onChange={(e) => setName(e.target.value)}
                           className="text-body-color border-[f0f0f0] focus:border-blue-500 w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
@@ -191,12 +185,12 @@ const Contact = () => {
                         }}
                         initial="hidden"
                         animate="visible"
-                        transition={{ duration: 0.50, delay: 0.75 }}
+                        transition={{ duration: 0.5, delay: 0.75 }}
                         className="mb-6"
                       >
                         <input
                           type="email"
-                          placeholder="Your Email"
+                          placeholder={t("contact.placeholders.email")}
                           value={email}
                           onChange={(e) => setEmail(e.target.value)}
                           className="text-body-color border-[f0f0f0] focus:border-blue-500 w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
@@ -209,12 +203,12 @@ const Contact = () => {
                         }}
                         initial="hidden"
                         animate="visible"
-                        transition={{ duration: 0.50, delay: 0.75 }}
+                        transition={{ duration: 0.5, delay: 0.75 }}
                         className="mb-6"
                       >
                         <input
                           type="text"
-                          placeholder="Your Phone"
+                          placeholder={t("contact.placeholders.phone")}
                           value={phone}
                           onChange={(e) => setPhone(e.target.value)}
                           className="text-body-color border-[f0f0f0] focus:border-blue-500 w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
@@ -227,12 +221,12 @@ const Contact = () => {
                         }}
                         initial="hidden"
                         animate="visible"
-                        transition={{ duration: 0.50, delay: 1 }}
+                        transition={{ duration: 0.5, delay: 1 }}
                         className="mb-6"
                       >
                         <textarea
                           rows={6}
-                          placeholder="Your Message"
+                          placeholder={t("contact.placeholders.message")}
                           value={message}
                           onChange={(e) => setMessage(e.target.value)}
                           className="text-body-color border-[f0f0f0] focus:border-blue-500 w-full resize-none rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
@@ -245,17 +239,16 @@ const Contact = () => {
                         }}
                         initial="hidden"
                         animate="visible"
-                        transition={{ duration: 0.50, delay: 1.25 }}
+                        transition={{ duration: 0.5, delay: 1.25 }}
                       >
                         <button
                           type="submit"
                           className="bg-blue-500 border-blue-500 w-full rounded border p-3 text-white transition hover:bg-opacity-90"
                         >
-                          Send Message
+                          {t("contact.submit")}
                         </button>
                       </motion.div>
                     </form>
-
                   </div>
                 </motion.div>
               </div>
@@ -272,15 +265,13 @@ const Contact = () => {
             }}
             initial="hidden"
             animate={mainControlls}
-            transition={{ duration: 0.50, delay: 0.50 }}
+            transition={{ duration: 0.5, delay: 0.5 }}
             className="mx-auto mb-12 text-center lg:mb-20"
           >
             <h2 className="mb-4 text-3xl font-bold text-blue-500 sm:text-4xl md:text-[40px]">
-              Our Location
+              {t("contact.mapSectionTitle")}
             </h2>
-            <p className="text-lg text-gray-500">
-              Visit us at our office! We'd love to meet you in person. Here's where you can find us:
-            </p>
+            <p className="text-lg text-gray-500">{t("contact.mapSectionLead")}</p>
           </motion.div>
           <div className="flex justify-center mt-20" id="maps">
             <iframe
@@ -289,6 +280,7 @@ const Contact = () => {
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               className="w-screen sm:mx-36 mx-10 h-[30rem]"
+              title={t("contact.mapSectionTitle")}
             ></iframe>
           </div>
         </div>

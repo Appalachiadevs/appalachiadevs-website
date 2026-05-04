@@ -1,16 +1,18 @@
 import React, { useEffect, useRef } from "react";
-import {motion, useInView, useAnimation} from 'framer-motion';
+import { motion, useInView, useAnimation } from "framer-motion";
+import { useTranslation } from "react-i18next";
+
 const CallToAction = () => {
-    const {innerWidth: Width} = window;
-    const ref = useRef();
-    const isInView = useInView(ref)
-    const mainControlls = useAnimation(isInView);
-    
-    useEffect(()=> {
-        if(isInView) {
-            mainControlls.start("visible")
-        }
-    }, [isInView])
+  const { t } = useTranslation();
+  const ref = useRef();
+  const isInView = useInView(ref);
+  const mainControlls = useAnimation(isInView);
+
+  useEffect(() => {
+    if (isInView) {
+      mainControlls.start("visible");
+    }
+  }, [isInView, mainControlls]);
   return (
     <div>
       <div className="w-[70%]  h-[2px] bg-gradient-to-r from-blue-200 to-blue-500"></div>
@@ -31,13 +33,14 @@ const CallToAction = () => {
                   className="w-full px-4 lg:w-1/2"
                 >
                   <span className="mb-2 text-base font-semibold text-white">
-                    Discover the ideal team to bring your digital dreams to life! 
+                    {t("cta.eyebrow")}
                   </span>
                   <h2 className="mb-6 text-3xl font-bold leading-tight text-white sm:mb-8 sm:text-[38px] lg:mb-0">
-                    Begin your journey today, and leave the rest to us. <br className="xs:block hidden" />
-                    Get what you want {" "}
+                    {t("cta.headlineBefore")}{" "}
+                    <br className="xs:block hidden" />
+                    {t("cta.headlineMid")}{" "}
                     <span className="text-5xl text-blue-500">
-                      from us
+                      {t("cta.headlineAfter")}
                     </span>
                   </h2>
                 </motion.div>
@@ -55,11 +58,14 @@ const CallToAction = () => {
                     >
                       {" "}
                       <button
-                        href="#"
+                        type="button"
                         className="hover:bg-blue-500 my-1 mr-4 inline-block rounded bg-white bg-opacity-[15%] py-4 px-6 text-base font-medium text-white transition hover:bg-opacity-100 md:px-9 lg:px-6 xl:px-9"
-                        onClick={() => window.location.href = "https://cal.com/appalachiadev/15min"}
+                        onClick={() =>
+                          (window.location.href =
+                            "https://cal.com/appalachiadev/15min")
+                        }
                       >
-                        Talk to a Agent
+                        {t("cta.talkAgent")}
                       </button>
                     </motion.div>
                     <motion.div
@@ -74,11 +80,14 @@ const CallToAction = () => {
                     >
                       {" "}
                       <button
-                        href="#"
+                        type="button"
                         className="my-1 inline-block rounded bg-blue-500 py-4 px-6 text-base font-medium text-white transition hover:bg-opacity-90 md:px-9 lg:px-6 xl:px-9"
-                        onClick={() => window.location.href = "https://cal.com/appalachiadev/15min"}
+                        onClick={() =>
+                          (window.location.href =
+                            "https://cal.com/appalachiadev/15min")
+                        }
                       >
-                        Get Started
+                        {t("cta.getStarted")}
                       </button>
                     </motion.div>
                   </div>
@@ -110,8 +119,8 @@ const CallToAction = () => {
                         y2="-106.425"
                         gradientUnits="userSpaceOnUse"
                       >
-                        <stop stop-color="white" stop-opacity="0.07" />
-                        <stop offset="1" stop-color="white" stop-opacity="0" />
+                        <stop stopColor="white" stopOpacity="0.07" />
+                        <stop offset="1" stopColor="white" stopOpacity="0" />
                       </linearGradient>
                     </defs>
                   </svg>
@@ -140,8 +149,8 @@ const CallToAction = () => {
                         y2="88.5747"
                         gradientUnits="userSpaceOnUse"
                       >
-                        <stop stop-color="white" stop-opacity="0.07" />
-                        <stop offset="1" stop-color="white" stop-opacity="0" />
+                        <stop stopColor="white" stopOpacity="0.07" />
+                        <stop offset="1" stopColor="white" stopOpacity="0" />
                       </linearGradient>
                     </defs>
                   </svg>

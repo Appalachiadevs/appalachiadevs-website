@@ -1,0 +1,28 @@
+{
+  "seo": {
+    "home": {
+      "title": "Développement web sur mesure et agence digitale",
+      "description": "AppalachiaDevs livre des applications web sur mesure, des intégrations et des produits prêts pour l'IA depuis Miami pour des clients aux États-Unis—feuilles de route claires, ingénieurs seniors et du code que vous pouvez mettre en production et posséder."
+    },
+    "about": {
+      "title": "À propos",
+      "description": "Découvrez AppalachiaDevs : agence digitale basée à Miami avec des racines appalachiennes—ingénierie web, rigueur produit et partenariats durables pour startups et grandes entreprises."
+    },
+    "services": {
+      "title": "Services de développement web",
+      "description": "Développement web full-stack, UX, intégrations et déploiements cloud—AppalachiaDevs cadrage en quelques jours et livre un logiciel de qualité production pour les équipes à travers les États-Unis."
+    },
+    "portfolio": {
+      "title": "Portfolio",
+      "description": "Travaux en production d'AppalachiaDevs : console IoT, espace RAG d'entreprise et interfaces Guard—ouvrez chaque déploiement sur appalachiadevs.com."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Contactez AppalachiaDevs à Miami pour cadrage de projet, partenariats et support—email, téléphone et plan. Réservez une intro de 15 minutes ou envoyez une demande détaillée."
+    },
+    "blogs": {
+      "title": "Insights et blog",
+      "description": "Derniers articles d'AppalachiaDevs sur le développement web, la livraison produit et la résilience des équipes engineering—notes pratiques pour les leaders techniques."
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "features": {
+    "mobile": {
+      "heroTitle": "Impulsamos negocios",
+      "heroSubtitle": "Crecimiento con soluciones tecnológicas avanzadas, analítica y personal capacitado",
+      "block1Title": "La innovación empieza aquí",
+      "block1Lead": "Libera crecimiento con soluciones avanzadas: operaciones optimizadas, tecnologías innovadoras integradas y soporte personalizado.",
+      "block1Card1Title": "Soluciones algorítmicas avanzadas",
+      "block1Card1Body": "Nuestros algoritmos optimizan operaciones para mayor eficiencia y rentabilidad. Decisiones basadas en datos con insights accionables.",
+      "block1Card2Title": "Integración tecnológica innovadora",
+      "block1Card2Body": "Integra IA, IoT y nube sin fricción. Automatiza tareas, mejora la comunicación y desbloquea crecimiento.",
+      "block1Card3Title": "Soporte de personal capacitado",
+      "block1Card3Body": "Expertos aseguran implementación fluida y guía continua para aprovechar mejor el software.",
+      "block2Title": "Decisiones con datos, soluciones a medida",
+      "block2Lead": "Decisiones con datos, soluciones personalizadas e innovación continua: avanza con analítica potente adaptada a tus necesidades.",
+      "block2Card1Title": "Analítica potente",
+      "block2Card1Body": "Extrae valor de tus datos con visualizaciones completas. Monitorea KPI, tendencias y oportunidades de mejora.",
+      "block2Card2Title": "Soluciones personalizadas",
+      "block2Card2Body": "Software a medida para necesidades únicas y crecimiento alineado a tus objetivos.",
+      "block2Card3Title": "Innovación y actualizaciones continuas",
+      "block2Card3Body": "Mantente adelante con nuevas funciones y adaptación al mercado para ventaja competitiva."
+    },
+    "desktop": {
+      "heroTitle": "Automatiza tu negocio",
+      "heroSubtitle": "Encuentra tareas manuales en tu empresa y déjanos automatizarlas.",
+      "block1Title": "La innovación empieza aquí",
+      "block1Lead": "Gana eficiencia con soluciones impulsadas por IA: operaciones más simples, menos trabajo manual y decisiones más inteligentes.",
+      "block1Card1Title": "Automatización con IA",
+      "block1Card1Body": "Simplificamos flujos complejos, aumentamos productividad y ayudamos a que el negocio sea más rápido y eficiente.",
+      "block1Card2Title": "Integración tecnológica inteligente",
+      "block1Card2Body": "Integra IA, nube y herramientas modernas. Automatiza lo repetitivo, mejora comunicación y acelera crecimiento.",
+      "block1Card3Title": "Soporte confiable de IA e IT",
+      "block1Card3Body": "Implementación fluida y soporte continuo para maximizar valor y escalar con confianza.",
+      "block2Title": "Empieza bien con consultoría IT experta",
+      "block2Lead": "Cimientos correctos antes de construir. Enfoque consultivo primero: metas claras, tecnología adecuada y menos errores costosos.",
+      "block2Card1Title": "Planificación estratégica",
+      "block2Card1Body": "De ideas a planes accionables: requisitos, riesgos y roadmap alineado a objetivos.",
+      "block2Card2Title": "Recomendaciones tecnológicas a medida",
+      "block2Card2Body": "Cada proyecto es distinto. Recomendamos arquitectura y herramientas para soluciones eficientes, escalables y futuras.",
+      "block2Card3Title": "Guía y optimización continuas",
+      "block2Card3Body": "Del concepto a la ejecución, acompañamos con ajustes para mantener el proyecto alineado y sostenible."
+    }
+  }
+}

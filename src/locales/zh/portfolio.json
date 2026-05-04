@@ -1,0 +1,61 @@
+{
+  "portfolio": {
+    "badge": "生产环境参考",
+    "titleLine1": "我们交付给",
+    "titleAccent": "真实流量",
+    "intro": "下方每个模块都是在 AppalachiaDevs 域名下的线上部署——同样的 TLS、同样的发布纪律，以及对运营者与利益相关者清晰呈现同样的执着。打开任意链接，像用户一样体验产品。",
+    "stat1": "线上生产路径",
+    "stat2": "IoT · RAG · Guard",
+    "stat3": "面向美国采购方，全球交付",
+    "sectionTitle": "精选部署",
+    "sectionLead": "叙事、技术立场与结果——以我们在深入技术评审前向高管汇报的方式撰写。",
+    "ctaButton": "查看线上环境",
+    "closingTitle": "想在您的域名与技术栈上构建类似系统？",
+    "closingLead": "我们以天为单位界定范围，而不是堆叠幻灯片——带上您的约束（合规、延迟、团队规模），我们将绘制一份可提交给管理层的交付计划。",
+    "closingButton": "预约 15 分钟介绍",
+    "projects": [
+      {
+        "slug": "iot",
+        "image": "/portfolio/portfolio-iot.png",
+        "title": "工业物联网控制台",
+        "category": "物联网 · 边缘 · 实时",
+        "tagline": "实时遥测、设备健康与运营可见性集于同一生产级控制台——面向在工厂或现场无法承受盲区的团队。",
+        "highlights": [
+          "面向传感器与网关的流式友好视图",
+          "面向操作员与工程角色的差异化导航",
+          "部署在您的 appalachiadevs.com 路径下，形成统一品牌入口"
+        ],
+        "tags": ["实时数据", "仪表盘", "设备运维"],
+        "url": "https://appalachiadevs.com/iot"
+      },
+      {
+        "slug": "rag",
+        "image": "/portfolio/portfolio-rag.png",
+        "title": "企业 RAG 工作台",
+        "category": "大语言模型 · 检索 · 知识",
+        "tagline": "在您自有文档与政策上提供有据回答——让支持、销售与内部团队减少搜索时间，更快完成客户闭环。",
+        "highlights": [
+          "检索优先体验：引用与可追溯性内置于设计",
+          "面向内部知识库与长 PDF 调优",
+          "生产路径与您现有流量路由方式一致"
+        ],
+        "tags": ["RAG", "知识库", "AI 体验"],
+        "url": "https://appalachiadevs.com/rag"
+      },
+      {
+        "slug": "guard",
+        "image": "/portfolio/portfolio-guard.png",
+        "title": "Guard — 访问与合规入口",
+        "category": "安全 · 访问 · 治理",
+        "tagline": "为承包商、访客与高权限工作流提供加固的入口体验——从第一天起满足安全团队对策略信息、门禁与升级路径的期望。",
+        "highlights": [
+          "面向敏感入口流程的零信任友好模式",
+          "便于审计追踪、满足合规相关方期待的清晰结构",
+          "在同一主域提供服务以降低钓鱼风险"
+        ],
+        "tags": ["访问控制", "零信任", "合规体验"],
+        "url": "https://appalachiadevs.com/guard"
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "servicesPage": {
+    "eyebrow": "Nossos serviços",
+    "title": "O que oferecemos",
+    "intro": "Ajudamos organizações a adotar IA e IoT com automação prática, integrações, modelos, produtos conectados, entrega e consultoria especializada.",
+    "mapTitle1": "Serviços de IA e IoT",
+    "mapTitle2": "da estratégia à entrega",
+    "mapLead": "Seja automatizando operações, integrando modelos ou lançando produtos conectados, fazemos parceria para transformar ideias em sistemas confiáveis.",
+    "stats": [
+      { "value": "2K+", "label": "Empresas atendidas" },
+      { "value": "25%", "label": "Aumento médio de performance" },
+      { "value": "70%", "label": "Empresas que compram novamente" }
+    ],
+    "cards": [
+      { "title": "Automação com IA", "details": "Automatize trabalho repetitivo e fluxos com IA para que o time foque no que importa." },
+      { "title": "Integração de IA", "details": "Insira IA nos sistemas atuais—APIs, pipelines e apps—com padrões sólidos de auth, observabilidade e rollout seguro." },
+      { "title": "Modelos de IA", "details": "Escolha, treine, avalie e implante modelos certos para o seu domínio, do protótipo ao monitoramento em produção." },
+      { "title": "Solução IoT", "details": "Arquiteturas IoT ponta a ponta: dispositivos, conectividade, edge e nuvem alinhados ao roadmap." },
+      { "title": "Entrega IoT", "details": "Programes IoT com provisionamento, gestão de frota, OTA e suporte de campo para alinhar hardware e software." },
+      { "title": "Consultoria", "details": "Estratégia e orientação prática para iniciativas de IA e IoT—roadmaps, riscos, fornecedores e planos orientados a resultados." }
+    ],
+    "mapAltDesktop": "mapa mundial",
+    "mapAltMobile": "imagem mobile"
+  }
+}

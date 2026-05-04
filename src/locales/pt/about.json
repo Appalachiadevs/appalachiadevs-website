@@ -10,7 +10,7 @@
     "teamLead": "Os profissionais que impulsionam a inovação por trás das nossas soluções digitais.",
     "members": [
       { "name": "Alexander Southern", "role": "CEO" },
-      { "name": "Sabir Youssef", "role": "Desenvolvedor full-stack" }
+      { "name": "Bojan", "role": "Desenvolvedor full-stack" }
     ],
     "a11y": { "email": "Email", "twitter": "Twitter", "linkedin": "LinkedIn", "github": "GitHub" }
   }

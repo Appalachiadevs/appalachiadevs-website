@@ -44,9 +44,9 @@ const Footer = () => {
                   <li className=" mr-2 text-blue-500 hover:text-blue-800 font-semibold cursor-pointer">
                     <Link to={p("/portfolio")}>{t("nav.portfolio")}</Link>
                   </li>
-                  <li className=" mr-2 text-blue-500 hover:text-blue-800 font-semibold cursor-pointer">
+                  {/* <li className=" mr-2 text-blue-500 hover:text-blue-800 font-semibold cursor-pointer">
                     <Link to={p("/blogs")}>{t("nav.blogs")}</Link>
-                  </li>
+                  </li> */}
                   <li className=" text-blue-500 hover:text-blue-800 font-semibold cursor-pointer">
                     <Link to={p("/contact")}>{t("nav.contact")}</Link>
                   </li>

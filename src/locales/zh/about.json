@@ -10,7 +10,7 @@
     "teamLead": "推动我们数字解决方案创新的专业成员。",
     "members": [
       { "name": "Alexander Southern", "role": "首席执行官" },
-      { "name": "Sabir Youssef", "role": "全栈开发工程师" }
+      { "name": "Bojan", "role": "全栈开发工程师" }
     ],
     "a11y": { "email": "邮件", "twitter": "X", "linkedin": "领英", "github": "GitHub" }
   }

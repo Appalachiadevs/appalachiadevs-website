@@ -51,9 +51,9 @@ const Navbar = () => {
               <li className="p-2 mr-2 text-blue-500 hover:text-blue-800 font-bold cursor-pointer">
                 <Link to={p("/portfolio")}>{t("nav.portfolio")}</Link>
               </li>
-              <li className="p-2 mr-2 text-blue-500 hover:text-blue-800 font-bold cursor-pointer">
+              {/* <li className="p-2 mr-2 text-blue-500 hover:text-blue-800 font-bold cursor-pointer">
                 <Link to={p("/blogs")}>{t("nav.blogs")}</Link>
-              </li>
+              </li> */}
               <li className="p-2 text-blue-500 hover:text-blue-800 font-bold cursor-pointer">
                 <Link to={p("/contact")}>{t("nav.contact")}</Link>
               </li>
@@ -118,11 +118,11 @@ const Navbar = () => {
                 {t("nav.portfolio")}
               </Link>
             </li>
-            <li className="text-blue-500 hover:text-blue-800 font-bold pl-8 cursor-pointer pb-4">
+            {/* <li className="text-blue-500 hover:text-blue-800 font-bold pl-8 cursor-pointer pb-4">
               <Link to={p("/blogs")} onClick={() => setOpen(false)}>
                 {t("nav.blogs")}
               </Link>
-            </li>
+            </li> */}
             <li className="text-blue-500 hover:text-blue-800 font-bold pl-8 cursor-pointer pb-4">
               <Link to={p("/contact")} onClick={() => setOpen(false)}>
                 {t("nav.contact")}

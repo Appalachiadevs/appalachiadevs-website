@@ -20,13 +20,13 @@ function App() {
           <Route path="about" element={<About />} />
           <Route path="services" element={<Services />} />
           <Route path="portfolio" element={<Portfolio />} />
-          <Route path="blogs" element={<Blogs />} />
+          {/* <Route path="blogs" element={<Blogs />} /> */}
           <Route path="contact" element={<Contact />} />
         </Route>
         <Route path="/about" element={<Navigate to={`/${DEFAULT_LOCALE}/about`} replace />} />
         <Route path="/services" element={<Navigate to={`/${DEFAULT_LOCALE}/services`} replace />} />
         <Route path="/portfolio" element={<Navigate to={`/${DEFAULT_LOCALE}/portfolio`} replace />} />
-        <Route path="/blogs" element={<Navigate to={`/${DEFAULT_LOCALE}/blogs`} replace />} />
+        {/* <Route path="/blogs" element={<Navigate to={`/${DEFAULT_LOCALE}/blogs`} replace />} /> */}
         <Route path="/contact" element={<Navigate to={`/${DEFAULT_LOCALE}/contact`} replace />} />
       </Routes>
     </BrowserRouter>

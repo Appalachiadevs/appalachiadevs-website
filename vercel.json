@@ -11,6 +11,10 @@
         {
             "source": "/guard/:path*",
             "destination": "https://guard.weienwong.online/:path*"
+        },
+        {
+            "source": "/((?!assets/|portfolio/).*)",
+            "destination": "/index.html"
         }
     ]
 }

@@ -35,6 +35,9 @@ const Footer = () => {
 							<li className=" mr-2 text-blue-500 hover:text-blue-800 font-semibold cursor-pointer">
 								<Link to="/services">Services</Link>
 							</li>
+							<li className=" mr-2 text-blue-500 hover:text-blue-800 font-semibold cursor-pointer">
+								<Link to="/portfolio">Portfolio</Link>
+							</li>
 							{/* <li className=" mr-2 text-blue-500 hover:text-blue-800 font-semibold cursor-pointer">
 								<Link to="/blogs">Blogs</Link>
 							</li> */}

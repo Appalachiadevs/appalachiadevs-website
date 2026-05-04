@@ -7,6 +7,10 @@
         {
             "source": "/rag/:path*",
             "destination": "https://rag.weienwong.online/:path*"
+        },
+        {
+            "source": "/guard/:path*",
+            "destination": "https://guard.weienwong.online/:path*"
         }
     ]
 }

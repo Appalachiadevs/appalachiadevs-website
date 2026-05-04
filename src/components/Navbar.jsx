@@ -30,6 +30,9 @@ const Navbar = () => {
               <li className="p-2 mr-2 text-blue-500 hover:text-blue-800 font-bold cursor-pointer">
                 <Link to="/services">Services</Link>
               </li>
+              <li className="p-2 mr-2 text-blue-500 hover:text-blue-800 font-bold cursor-pointer">
+                <Link to="/portfolio">Portfolio</Link>
+              </li>
               {/* <li className="p-2 mr-2 text-blue-500 hover:text-blue-800 font-bold cursor-pointer">
                 <Link to="/blogs">Blogs</Link>
               </li> */}
@@ -64,6 +67,9 @@ const Navbar = () => {
             </li>
             <li className="text-blue-500 hover:text-blue-800 font-bold pl-8 cursor-pointer pb-4">
               <Link to="/services">Services</Link>
+            </li>
+            <li className="text-blue-500 hover:text-blue-800 font-bold pl-8 cursor-pointer pb-4">
+              <Link to="/portfolio">Portfolio</Link>
             </li>
             {/* <li className="text-blue-500 hover:text-blue-800 font-bold pl-8 cursor-pointer pb-4">
               <Link to="/blogs">Blogs</Link>

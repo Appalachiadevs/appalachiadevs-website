@@ -59,9 +59,9 @@ function normalizeCanonicalPath(pathname) {
 }
 
 /**
- * @param {{ title: string; description: string; ogImage?: string }} props
+ * @param {{ title: string; description: string; ogImage?: string; noIndex?: boolean }} props
  */
-export default function SeoHead({ title, description, ogImage }) {
+export default function SeoHead({ title, description, ogImage, noIndex = false }) {
   const location = useLocation();
   const { lang: langParam } = useParams();
   const lang = SUPPORTED_LOCALES.includes(langParam)
@@ -81,7 +81,7 @@ export default function SeoHead({ title, description, ogImage }) {
     document.title = fullTitle;
 
     upsertMetaByName("description", description);
-    upsertMetaByName("robots", "index, follow");
+    upsertMetaByName("robots", noIndex ? "noindex, nofollow" : "index, follow");
 
     upsertMetaByProperty("og:type", "website");
     upsertMetaByProperty("og:site_name", SITE_NAME);
@@ -117,7 +117,7 @@ export default function SeoHead({ title, description, ogImage }) {
     xd.setAttribute("href", `${SITE_URL}/${DEFAULT_LOCALE}${pathTail}`);
     xd.setAttribute("data-i18n-hreflang", "1");
     document.head.appendChild(xd);
-  }, [fullTitle, description, canonical, image, ogLocale, pathTail]);
+  }, [fullTitle, description, canonical, image, ogLocale, pathTail, noIndex]);
 
   return null;
 }
